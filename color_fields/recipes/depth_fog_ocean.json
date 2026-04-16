@@ -1,0 +1,15 @@
+{
+  "id": "depth_fog_ocean",
+  "description": "Apply exponential fog colored with deep ocean palette based on ray march distance.",
+  "style_tags": [
+    "underwater",
+    "fog",
+    "depth",
+    "atmospheric",
+    "ocean"
+  ],
+  "example_prompts": [
+    "add deep ocean fog to ray marched scene",
+    "color scene with underwater depth gradient"
+  ]
+}

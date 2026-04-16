@@ -1,0 +1,18 @@
+{
+  "id": "reinhard",
+  "display_name": "Reinhard",
+  "description": "Simple and elegant: color / (1 + color). Soft highlight compression. Good default.",
+  "good_for": [
+    "simple scenes",
+    "quick HDR compression",
+    "prototyping"
+  ],
+  "style_tags": [
+    "simple",
+    "soft",
+    "default"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/tonemapping.glsl"
+  }
+}

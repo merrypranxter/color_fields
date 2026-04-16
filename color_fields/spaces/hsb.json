@@ -1,0 +1,52 @@
+{
+  "id": "hsb",
+  "display_name": "HSB / HSV",
+  "description": "Hue-Saturation-Brightness. Intuitive for color picking but NOT perceptually uniform \u2014 equal steps in H do not look equally spaced.",
+  "components": [
+    {
+      "name": "h",
+      "range": [
+        0,
+        1
+      ],
+      "notes": "Wraps around"
+    },
+    {
+      "name": "s",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "b",
+      "range": [
+        0,
+        1
+      ]
+    }
+  ],
+  "good_for": [
+    "rainbow gradients",
+    "hue cycling",
+    "simple color picking",
+    "trippy hue rotation"
+  ],
+  "bad_for": [
+    "perceptually smooth gradients",
+    "matching perceived brightness"
+  ],
+  "visual_keywords": [
+    "rainbow",
+    "hue wheel",
+    "intuitive"
+  ],
+  "art_failure_modes": [
+    "Gradients through HSB look uneven \u2014 yellow appears brighter than blue at same B.",
+    "Interpolating through H=0/1 boundary creates unwanted hue jumps unless wrapped."
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/color_spaces.glsl",
+    "wgsl": "shaders/wgsl/color_spaces.wgsl"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "agx",
+  "display_name": "AgX",
+  "description": "Modern tonemapper designed for perceptual uniformity. Better hue preservation than ACES, avoids oversaturated highlights.",
+  "good_for": [
+    "modern rendering",
+    "physically based scenes",
+    "hue-accurate work"
+  ],
+  "style_tags": [
+    "modern",
+    "accurate",
+    "hue-preserving"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/tonemapping.glsl"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "noise_to_neon",
+  "description": "Map procedural noise output to neon acid palette via cosine palette function.",
+  "style_tags": [
+    "neon",
+    "trippy",
+    "noise colored",
+    "electric",
+    "rave"
+  ],
+  "example_prompts": [
+    "color noise with neon acid palette",
+    "map simplex noise to electric neon colors"
+  ]
+}

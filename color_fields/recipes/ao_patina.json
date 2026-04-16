@@ -1,0 +1,15 @@
+{
+  "id": "ao_patina",
+  "description": "Tint ambient occlusion crevices with bone_and_rust palette for aged/weathered look.",
+  "style_tags": [
+    "patina",
+    "aged",
+    "weathered",
+    "rust",
+    "crevice darkening"
+  ],
+  "example_prompts": [
+    "add rust patina to ambient occlusion crevices",
+    "create weathered material using AO-driven color"
+  ]
+}

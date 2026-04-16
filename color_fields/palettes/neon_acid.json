@@ -1,0 +1,25 @@
+{
+  "id": "neon_acid",
+  "display_name": "Neon Acid",
+  "colors": [
+    "#ff00ff",
+    "#00ffff",
+    "#ffff00",
+    "#ff3300",
+    "#00ff66"
+  ],
+  "style_tags": [
+    "neon",
+    "acid",
+    "rave",
+    "electric",
+    "cyberpunk",
+    "trippy"
+  ],
+  "good_for": [
+    "psychedelic art",
+    "club visuals",
+    "high-energy generative",
+    "glitch art"
+  ]
+}

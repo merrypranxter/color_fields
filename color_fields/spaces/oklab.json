@@ -1,0 +1,53 @@
+{
+  "id": "oklab",
+  "display_name": "Oklab",
+  "description": "Perceptually uniform color space by Bj\u00f6rn Ottosson. Equal steps in L/a/b correspond to equal perceived differences. The gold standard for smooth gradients.",
+  "components": [
+    {
+      "name": "L",
+      "range": [
+        0,
+        1
+      ],
+      "notes": "Perceived lightness"
+    },
+    {
+      "name": "a",
+      "range": [
+        -0.4,
+        0.4
+      ],
+      "notes": "Green-red axis"
+    },
+    {
+      "name": "b",
+      "range": [
+        -0.4,
+        0.4
+      ],
+      "notes": "Blue-yellow axis"
+    }
+  ],
+  "good_for": [
+    "perceptually smooth gradients",
+    "palette interpolation",
+    "gamut mapping",
+    "professional color work"
+  ],
+  "bad_for": [
+    "nothing \u2014 this is the best general-purpose space for shader art"
+  ],
+  "visual_keywords": [
+    "uniform",
+    "smooth",
+    "professional",
+    "perceptual"
+  ],
+  "art_failure_modes": [
+    "Interpolating in Oklab between very saturated colors can pass through desaturated mid-tones. Use Oklch for constant-chroma paths."
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/color_spaces.glsl",
+    "wgsl": "shaders/wgsl/color_spaces.wgsl"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "color_fields",
+  "name": "Color Science & Palette Pack",
+  "version": "0.1.0",
+  "description": "Structured knowledge about color spaces, palette generation, gradient ramps, and tonemapping for generative shader art. The aesthetic layer that turns noise and geometry into beauty.",
+  "tags": [
+    "color",
+    "palette",
+    "gradient",
+    "tonemapping",
+    "shaders",
+    "glsl",
+    "wgsl",
+    "generative",
+    "reposcripter"
+  ],
+  "spaces_index": "spaces/index.json",
+  "palettes_index": "palettes/index.json",
+  "gradients_index": "gradients/index.json",
+  "tonemapping_index": "tonemapping/index.json",
+  "recipes_index": "recipes/index.json",
+  "shader_languages": [
+    "glsl",
+    "wgsl"
+  ],
+  "companion_packs": [
+    "noise_fields",
+    "sdf_fields"
+  ],
+  "license": "MIT"
+}

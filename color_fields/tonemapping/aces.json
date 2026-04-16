@@ -1,0 +1,19 @@
+{
+  "id": "aces",
+  "display_name": "ACES Filmic",
+  "description": "Industry-standard filmic curve with nice highlight rolloff and shadow lift. The go-to for cinematic looks.",
+  "good_for": [
+    "cinematic rendering",
+    "HDR to LDR",
+    "general purpose"
+  ],
+  "style_tags": [
+    "filmic",
+    "cinematic",
+    "professional",
+    "standard"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/tonemapping.glsl"
+  }
+}

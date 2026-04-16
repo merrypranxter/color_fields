@@ -1,0 +1,20 @@
+{
+  "tonemapping": [
+    {
+      "id": "aces",
+      "path": "tonemapping/aces.json"
+    },
+    {
+      "id": "reinhard",
+      "path": "tonemapping/reinhard.json"
+    },
+    {
+      "id": "uncharted2",
+      "path": "tonemapping/uncharted2.json"
+    },
+    {
+      "id": "agx",
+      "path": "tonemapping/agx.json"
+    }
+  ]
+}

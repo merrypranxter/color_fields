@@ -1,0 +1,16 @@
+{
+  "id": "cosmic_glow",
+  "description": "Volumetric glow accumulation colored with cosmic void palette for eldritch/space effects.",
+  "style_tags": [
+    "cosmic",
+    "glow",
+    "volumetric",
+    "nebula",
+    "void",
+    "eldritch"
+  ],
+  "example_prompts": [
+    "add cosmic volumetric glow using purple nebula palette",
+    "create eldritch glow with void colors"
+  ]
+}

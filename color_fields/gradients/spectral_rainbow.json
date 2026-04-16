@@ -1,0 +1,20 @@
+{
+  "id": "spectral_rainbow",
+  "display_name": "Spectral Rainbow",
+  "description": "Perceptually smooth rainbow using Oklch hue rotation at constant chroma and lightness.",
+  "method": "Oklch hue sweep",
+  "good_for": [
+    "data visualization",
+    "trippy coloring",
+    "noise-to-color mapping"
+  ],
+  "style_tags": [
+    "rainbow",
+    "spectral",
+    "smooth",
+    "perceptual"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/gradients.glsl"
+  }
+}

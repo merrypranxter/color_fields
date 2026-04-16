@@ -1,0 +1,26 @@
+{
+  "id": "toxic_growth",
+  "display_name": "Toxic Growth",
+  "colors": [
+    "#001a00",
+    "#003300",
+    "#006600",
+    "#00cc00",
+    "#66ff33",
+    "#ccff00"
+  ],
+  "style_tags": [
+    "toxic",
+    "growth",
+    "fungal",
+    "bioluminescent",
+    "radioactive",
+    "alien"
+  ],
+  "good_for": [
+    "alien biology",
+    "reaction-diffusion",
+    "growth patterns",
+    "horror"
+  ]
+}

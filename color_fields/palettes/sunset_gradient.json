@@ -1,0 +1,27 @@
+{
+  "id": "sunset_gradient",
+  "display_name": "Sunset Gradient",
+  "colors": [
+    "#1a0533",
+    "#4a0e4e",
+    "#8b1a6f",
+    "#d4447c",
+    "#ff7b54",
+    "#ffd166",
+    "#fefae0"
+  ],
+  "style_tags": [
+    "sunset",
+    "warm",
+    "gradient",
+    "sky",
+    "dusk",
+    "golden hour"
+  ],
+  "good_for": [
+    "sky gradients",
+    "atmospheric",
+    "warm ambient",
+    "backgrounds"
+  ]
+}

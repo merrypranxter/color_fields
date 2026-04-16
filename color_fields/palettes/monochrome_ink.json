@@ -1,0 +1,27 @@
+{
+  "id": "monochrome_ink",
+  "display_name": "Monochrome Ink",
+  "colors": [
+    "#0a0a0a",
+    "#1a1a2e",
+    "#2d2d44",
+    "#4a4a6a",
+    "#8888aa",
+    "#ccccdd",
+    "#f0f0f5"
+  ],
+  "style_tags": [
+    "monochrome",
+    "ink",
+    "minimal",
+    "noir",
+    "pen",
+    "grayscale"
+  ],
+  "good_for": [
+    "ink effects",
+    "minimal art",
+    "noir aesthetic",
+    "technical diagrams"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": "noise_to_neon",
+      "path": "recipes/noise_to_neon.json"
+    },
+    {
+      "id": "lava_emission",
+      "path": "recipes/lava_emission.json"
+    },
+    {
+      "id": "depth_fog_ocean",
+      "path": "recipes/depth_fog_ocean.json"
+    },
+    {
+      "id": "normal_rainbow",
+      "path": "recipes/normal_rainbow.json"
+    },
+    {
+      "id": "ao_patina",
+      "path": "recipes/ao_patina.json"
+    },
+    {
+      "id": "cosmic_glow",
+      "path": "recipes/cosmic_glow.json"
+    }
+  ]
+}

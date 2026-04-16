@@ -1,0 +1,15 @@
+{
+  "id": "normal_rainbow",
+  "description": "Map surface normals to spectral rainbow via Oklch for psychedelic material visualization.",
+  "style_tags": [
+    "rainbow",
+    "normals",
+    "debug art",
+    "psychedelic",
+    "iridescent"
+  ],
+  "example_prompts": [
+    "color surface normals with perceptual rainbow",
+    "create iridescent material from normal directions"
+  ]
+}

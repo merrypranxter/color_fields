@@ -1,0 +1,168 @@
+{
+  "id": "cosine_palette",
+  "display_name": "IQ Cosine Palette",
+  "description": "Inigo Quilez's compact parametric palette: color(t) = a + b * cos(2\u03c0(c*t + d)). 4 vec3 parameters create infinite palettes.",
+  "method": "cosine series",
+  "good_for": [
+    "procedural coloring",
+    "noise mapping",
+    "infinite palette variety",
+    "shader art"
+  ],
+  "style_tags": [
+    "procedural",
+    "parametric",
+    "compact",
+    "versatile"
+  ],
+  "parameters": {
+    "a": "vec3 bias",
+    "b": "vec3 amplitude",
+    "c": "vec3 frequency",
+    "d": "vec3 phase"
+  },
+  "canonical_parameter_sets": [
+    {
+      "id": "cosine_sunset",
+      "a": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "b": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "c": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "d": [
+        0.0,
+        0.33,
+        0.67
+      ],
+      "style_tags": [
+        "classic rainbow",
+        "balanced"
+      ]
+    },
+    {
+      "id": "cosine_fire",
+      "a": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "b": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "c": [
+        1.0,
+        1.0,
+        0.5
+      ],
+      "d": [
+        0.0,
+        0.1,
+        0.2
+      ],
+      "style_tags": [
+        "fire",
+        "warm",
+        "orange-red"
+      ]
+    },
+    {
+      "id": "cosine_ocean",
+      "a": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "b": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "c": [
+        1.0,
+        0.7,
+        0.4
+      ],
+      "d": [
+        0.0,
+        0.15,
+        0.2
+      ],
+      "style_tags": [
+        "ocean",
+        "cool",
+        "blue-green"
+      ]
+    },
+    {
+      "id": "cosine_neon",
+      "a": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "b": [
+        0.5,
+        0.5,
+        0.33
+      ],
+      "c": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "d": [
+        0.5,
+        0.2,
+        0.25
+      ],
+      "style_tags": [
+        "neon",
+        "vibrant",
+        "electric"
+      ]
+    },
+    {
+      "id": "cosine_pastel",
+      "a": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "b": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "c": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "d": [
+        0.0,
+        0.33,
+        0.67
+      ],
+      "style_tags": [
+        "pastel",
+        "soft",
+        "muted"
+      ]
+    }
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/gradients.glsl"
+  }
+}

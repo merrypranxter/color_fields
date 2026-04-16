@@ -1,0 +1,26 @@
+{
+  "id": "volcanic",
+  "display_name": "Volcanic",
+  "colors": [
+    "#1a0000",
+    "#4a0000",
+    "#8b2500",
+    "#ff4500",
+    "#ff8c00",
+    "#ffcc00"
+  ],
+  "style_tags": [
+    "lava",
+    "volcanic",
+    "fire",
+    "hot",
+    "magma",
+    "emissive"
+  ],
+  "good_for": [
+    "lava flows",
+    "fire effects",
+    "heat maps",
+    "emissive surfaces"
+  ]
+}

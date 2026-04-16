@@ -1,0 +1,44 @@
+{
+  "palettes": [
+    {
+      "id": "neon_acid",
+      "path": "palettes/neon_acid.json"
+    },
+    {
+      "id": "volcanic",
+      "path": "palettes/volcanic.json"
+    },
+    {
+      "id": "deep_ocean",
+      "path": "palettes/deep_ocean.json"
+    },
+    {
+      "id": "bone_and_rust",
+      "path": "palettes/bone_and_rust.json"
+    },
+    {
+      "id": "cosmic_void",
+      "path": "palettes/cosmic_void.json"
+    },
+    {
+      "id": "toxic_growth",
+      "path": "palettes/toxic_growth.json"
+    },
+    {
+      "id": "ice_crystal",
+      "path": "palettes/ice_crystal.json"
+    },
+    {
+      "id": "sunset_gradient",
+      "path": "palettes/sunset_gradient.json"
+    },
+    {
+      "id": "monochrome_ink",
+      "path": "palettes/monochrome_ink.json"
+    },
+    {
+      "id": "aurora",
+      "path": "palettes/aurora.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bone_and_rust",
+  "display_name": "Bone & Rust",
+  "colors": [
+    "#2d1b00",
+    "#5c3a1e",
+    "#a0522d",
+    "#d4a574",
+    "#f5e6cc",
+    "#faf0e6"
+  ],
+  "style_tags": [
+    "rust",
+    "bone",
+    "decay",
+    "warm earth",
+    "aged",
+    "patina"
+  ],
+  "good_for": [
+    "aged materials",
+    "desert",
+    "archaeological",
+    "worn surfaces"
+  ]
+}

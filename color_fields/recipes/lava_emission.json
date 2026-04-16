@@ -1,0 +1,15 @@
+{
+  "id": "lava_emission",
+  "description": "Map SDF proximity or noise value through black body gradient for glowing lava/emissive surfaces.",
+  "style_tags": [
+    "lava",
+    "emissive",
+    "glow",
+    "hot",
+    "volcanic"
+  ],
+  "example_prompts": [
+    "create glowing lava emission using black body gradient",
+    "map distance field to temperature-based color"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cosmic_void",
+  "display_name": "Cosmic Void",
+  "colors": [
+    "#0a0015",
+    "#1a0030",
+    "#2d1b69",
+    "#663399",
+    "#9966cc",
+    "#cc99ff"
+  ],
+  "style_tags": [
+    "cosmic",
+    "void",
+    "space",
+    "nebula",
+    "dark",
+    "ethereal",
+    "purple"
+  ],
+  "good_for": [
+    "space scenes",
+    "nebulae",
+    "dark abstract",
+    "void tendrils"
+  ]
+}

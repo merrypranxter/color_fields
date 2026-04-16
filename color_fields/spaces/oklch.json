@@ -1,0 +1,47 @@
+{
+  "id": "oklch",
+  "display_name": "Oklch",
+  "description": "Cylindrical form of Oklab: Lightness-Chroma-Hue. Best space for hue rotation while maintaining perceptual uniformity.",
+  "components": [
+    {
+      "name": "L",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "C",
+      "range": [
+        0,
+        0.4
+      ],
+      "notes": "Chroma (saturation)"
+    },
+    {
+      "name": "h",
+      "range": [
+        0,
+        6.283
+      ],
+      "notes": "Hue angle in radians"
+    }
+  ],
+  "good_for": [
+    "perceptual hue cycling",
+    "palette generation by hue shifting",
+    "constant-brightness gradients"
+  ],
+  "bad_for": [
+    "direct display \u2014 must convert back to RGB"
+  ],
+  "visual_keywords": [
+    "perceptual hue",
+    "uniform chroma",
+    "modern"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/color_spaces.glsl",
+    "wgsl": "shaders/wgsl/color_spaces.wgsl"
+  }
+}

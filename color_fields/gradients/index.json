@@ -1,0 +1,16 @@
+{
+  "gradients": [
+    {
+      "id": "black_body",
+      "path": "gradients/black_body.json"
+    },
+    {
+      "id": "spectral_rainbow",
+      "path": "gradients/spectral_rainbow.json"
+    },
+    {
+      "id": "cosine_palette",
+      "path": "gradients/cosine_palette.json"
+    }
+  ]
+}

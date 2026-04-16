@@ -1,0 +1,27 @@
+{
+  "id": "aurora",
+  "display_name": "Aurora",
+  "colors": [
+    "#001122",
+    "#003344",
+    "#006666",
+    "#00aa88",
+    "#44dd88",
+    "#88ff88",
+    "#aaffcc"
+  ],
+  "style_tags": [
+    "aurora",
+    "borealis",
+    "ethereal",
+    "northern lights",
+    "atmospheric",
+    "green glow"
+  ],
+  "good_for": [
+    "aurora effects",
+    "ethereal glow",
+    "atmospheric bands",
+    "magic"
+  ]
+}

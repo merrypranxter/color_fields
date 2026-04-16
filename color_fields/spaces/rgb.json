@@ -1,0 +1,47 @@
+{
+  "id": "rgb",
+  "display_name": "RGB (sRGB)",
+  "description": "Standard red-green-blue additive color space. Native to displays but poor for perceptual manipulation.",
+  "components": [
+    {
+      "name": "r",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "g",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "b",
+      "range": [
+        0,
+        1
+      ]
+    }
+  ],
+  "good_for": [
+    "direct display output",
+    "blending modes",
+    "texture sampling"
+  ],
+  "bad_for": [
+    "perceptually uniform gradients",
+    "hue rotation",
+    "lightness manipulation"
+  ],
+  "visual_keywords": [
+    "standard",
+    "display",
+    "additive"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/color_spaces.glsl",
+    "wgsl": "shaders/wgsl/color_spaces.wgsl"
+  }
+}

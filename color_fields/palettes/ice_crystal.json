@@ -1,0 +1,26 @@
+{
+  "id": "ice_crystal",
+  "display_name": "Ice Crystal",
+  "colors": [
+    "#e8f0fe",
+    "#b3d4fc",
+    "#70b8ff",
+    "#3a8fd4",
+    "#1a5276",
+    "#0a2640"
+  ],
+  "style_tags": [
+    "ice",
+    "crystal",
+    "cold",
+    "frozen",
+    "winter",
+    "glass"
+  ],
+  "good_for": [
+    "crystalline structures",
+    "frozen surfaces",
+    "winter scenes",
+    "glass"
+  ]
+}

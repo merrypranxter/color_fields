@@ -1,0 +1,41 @@
+{
+  "id": "hsl",
+  "display_name": "HSL",
+  "description": "Hue-Saturation-Lightness. Similar to HSB but L=0.5 is full saturation, L=1.0 is white. Slightly better for tinting.",
+  "components": [
+    {
+      "name": "h",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "s",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "l",
+      "range": [
+        0,
+        1
+      ]
+    }
+  ],
+  "good_for": [
+    "tinting",
+    "lightening/darkening",
+    "pastel generation"
+  ],
+  "bad_for": [
+    "perceptually uniform work",
+    "professional color grading"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/color_spaces.glsl",
+    "wgsl": "shaders/wgsl/color_spaces.wgsl"
+  }
+}

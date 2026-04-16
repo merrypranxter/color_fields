@@ -1,0 +1,24 @@
+{
+  "spaces": [
+    {
+      "id": "rgb",
+      "path": "spaces/rgb.json"
+    },
+    {
+      "id": "hsb",
+      "path": "spaces/hsb.json"
+    },
+    {
+      "id": "hsl",
+      "path": "spaces/hsl.json"
+    },
+    {
+      "id": "oklab",
+      "path": "spaces/oklab.json"
+    },
+    {
+      "id": "oklch",
+      "path": "spaces/oklch.json"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "black_body",
+  "display_name": "Black Body Radiation",
+  "description": "Physical color of heated objects: black \u2192 red \u2192 orange \u2192 yellow \u2192 white \u2192 blue-white.",
+  "method": "physics-based temperature curve",
+  "good_for": [
+    "emissive surfaces",
+    "lava",
+    "stars",
+    "heat visualization"
+  ],
+  "style_tags": [
+    "heat",
+    "emissive",
+    "physical",
+    "temperature"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/gradients.glsl"
+  }
+}

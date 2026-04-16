@@ -1,0 +1,19 @@
+{
+  "id": "uncharted2",
+  "display_name": "Uncharted 2 / Hable",
+  "description": "John Hable's filmic curve from Uncharted 2. Strong S-curve with crushed blacks and bright highlights.",
+  "good_for": [
+    "game rendering",
+    "dramatic lighting",
+    "high contrast scenes"
+  ],
+  "style_tags": [
+    "dramatic",
+    "game",
+    "contrasty",
+    "filmic"
+  ],
+  "shader_chunks": {
+    "glsl": "shaders/glsl/tonemapping.glsl"
+  }
+}
